@@ -8,7 +8,7 @@
 - [浏览器](/web-devtools/fe/browser)
 - 计算机网络
 - [工程化](/web-devtools/fe/webpack)
-- Node
+- [Node](/web-devtools/fe/node)
 
 ## 参考链接
 
@@ -19,3 +19,5 @@
 - [「2021」高频前端面试题汇总](https://juejin.cn/post/6905294475539513352)
 - [前端劝退之前端知识体系（前端面试体系）](https://juejin.cn/post/6994657097220620319)
 - [106 道面向初中级前端的基础面试题](https://juejin.cn/post/6898121476864638989)
+- [带你入门前端工程](https://woai3c.github.io/introduction-to-front-end-engineering/)
+- [如何通过饿了么 Node.js 面试](https://github.com/ElemeFE/node-interview)
