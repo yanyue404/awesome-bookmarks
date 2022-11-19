@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy: vuepress docs'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/yanyue404/web-devtools.git master:gh-pages
+git push -f https://github.com/yanyue404/my-bookmarks.git master:gh-pages
 
 cd -

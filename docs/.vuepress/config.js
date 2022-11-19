@@ -1,36 +1,30 @@
+const utils = require("./utils");
 module.exports = {
-  base: "/web-devtools/",
-  title: "A list of resources I use（Perspective of F2E）",
+  title: "my-bookmarks",
+  base: "/my-bookmarks/",
+  description: "我喜欢的收集",
   themeConfig: {
     nav: [
       {
-        text: "Web Devtools",
-        link: "/",
+        text: "首页",
+        link: "/"
       },
       {
-        text: "前端知识体系",
-        link: "/fe/",
+        text: "网站",
+        link: "/website/"
       },
+      {
+        text: "库",
+        link: "/repository/"
+      },
+      {
+        text: "文章",
+        link: "/article/"
+      }
     ],
-    sidebar: {
-      "/fe/": [
-        ["", "主页"],
-        ["h5", "Html"],
-        ["c3", "CSS"],
-        ["js", "JavaScript"],
-        ["write", "手写代码"],
-        ["vue", "Vue"],
-        ["browser", "浏览器"],
-        ["webpack", "工程化"],
-        ["node", "Node"],
-        ["mock", "前端面试真题，会80%直接进大厂"],
-        ["guide", "前端面试手册"],
-      ],
-      "/": [""],
-    },
-    sidebarDepth: 2,
+    sidebar: "auto",
+    sidebarDepth: 3,
     displayAllHeaders: true,
-    repo: "https://github.com/yanyue404/web-devtools",
-    repoLabel: "给作者的 Github 点个 star 吧！",
-  },
+    repo: "https://github.com/yanyue404/my-bookmarks"
+  }
 };
