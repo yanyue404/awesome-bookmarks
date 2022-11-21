@@ -6,4 +6,5 @@ npm-debug.log
 .idea
 Everything.db
 datarecovery
+dist
 

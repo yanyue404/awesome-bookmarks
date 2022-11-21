@@ -1,3 +1,3 @@
-const sidebarMap = [{ title: "文章", dirname: "article" }];
+const sidebarMap = [];
 
 module.exports = sidebarMap;

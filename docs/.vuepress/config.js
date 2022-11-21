@@ -22,9 +22,13 @@ module.exports = {
         link: "/article/"
       }
     ],
-    sidebar: "auto",
+    sidebar: utils.inferSiderbars(),
     sidebarDepth: 3,
     displayAllHeaders: true,
-    repo: "https://github.com/yanyue404/my-bookmarks"
+    repo: "yanyue404/my-bookmarks",
+    editLinks: true,
+    docsDir: "docs",
+    editLinkText: "在 GitHub 上编辑此页",
+    lastUpdated: "上次更新"
   }
 };

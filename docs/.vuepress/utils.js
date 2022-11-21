@@ -25,5 +25,5 @@ exports.inferSiderbars = () => {
       }
     ];
   });
-  return sidebar;
+  return JSON.stringify(sidebar) === "{}" ? "auto" : sidebar;
 };
