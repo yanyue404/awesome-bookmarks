@@ -2,19 +2,28 @@
 
 ## 框架
 
+**Vue 生态**
+
+- [vue](https://github.com/vuejs/vue) - 中文 [vue2](https://v2.cn.vuejs.org/) / [vue3](https://cn.vuejs.org/)
+- [nuxt.js](https://github.com/nuxt/nuxt.js) [英文](https://nuxtjs.org/) / [中文 1](https://www.nuxtjs.cn/) / [中文 2](https://www.w3cschool.cn/nuxtjs/)
+- [quasar](https://github.com/quasarframework/quasar) - 基于 vue，一套代码多处适用。[中文文档](http://www.quasarchs.com/)
+- [vue-router](https://github.com/vuejs/vue-router)
+- [vuex](https://github.com/vuejs/vuex)
+- [vueuse](https://github.com/vueuse/vueuse) [文档](https://vueuse.org/)
+- [vant](https://vant-ui.github.io/vant/#/zh-CN/) - 轻量、可靠的移动端 Vue 组件库
+- [element-ui](https://github.com/ElemeFE/element) - Vue 的桌面端组件库
+
+**React 生态**
+
 - [react](https://github.com/facebook/react)
-- [vue](https://github.com/vuejs/vue)
 - [next.js](https://github.com/zeit/next.js)
-- [nuxt.js](https://github.com/nuxt/nuxt.js)
-- [taro](https://github.com/NervJS/taro) - 多端开发。
-- [quasar](https://github.com/quasarframework/quasar) - 基于 vue，一套代码多处适用。
+
+**多端**
+
+- [taro](https://github.com/NervJS/taro)
 
 ## Vue 相关库
 
-- [vue-router](https://github.com/vuejs/vue-router)
-- [vuex](https://github.com/vuejs/vuex)
-- [vant](https://vant-ui.github.io/vant/#/zh-CN/) - 轻量、可靠的移动端 Vue 组件库
-- [element-ui](https://github.com/ElemeFE/element) - Vue 的桌面端组件库
 - [vue-multiselect](https://github.com/shentao/vue-multiselect) select 组件 目前 vue 里面用过最好用的
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) DnD 拖拽组件 基于 Sortable.js 的 vue 版本
 - [vue-sauce](https://github.com/Botre/vue-sauce)  一个可以展示 vue 源码的指令
@@ -26,6 +35,14 @@
 - [vxe-table](https://github.com/xuliangzhan/vxe-table)vue 表格解决方案，还没具体用过看着的确解决了其它 table 组件的一些问题
 - [Vue 测试指南](https://lmiller1990.github.io/vue-testing-handbook/zh-CN/) vue 测试指南
 
+## 脚手架
+
+- [vue-cli](https://github.com/vuejs/vue-cli) - vue 命令行工具。 [中文文档](https://cli.vuejs.org/zh/)
+- [create-react-app](https://github.com/facebook/create-react-app) - react 官方脚手架。
+- [create-nuxt-app](https://github.com/nuxt/create-nuxt-app) - Create Nuxt.js App in seconds.
+- [create-vant-cli-app](https://github.com/youzan/vant/tree/main/packages/create-vant-cli-app) - Create Vant CLI App
+- [yeoman-generator](https://github.com/yeoman/generator)  脚手架工具
+
 ## 打包工具
 
 - [webpack](https://github.com/webpack/webpack) - 打包项目
@@ -35,13 +52,6 @@
 - [microbundle](https://github.com/developit/microbundle) - 基于 rollup，简化配置。
 - [bili](https://github.com/egoist/bili) - 基于 rollup，同上。
 - [father](https://github.com/umijs/father) - 组件打包工具，提供 babel 和 rollup 两种打包方式。
-
-### 脚手架
-
-- [vue-cli](https://github.com/vuejs/vue-cli) - vue 命令行工具。
-- [create-react-app](https://github.com/facebook/create-react-app) - react 官方脚手架。
-- [create-vant-cli-app](https://github.com/youzan/vant/tree/main/packages/create-vant-cli-app) - Create Vant CLI App
-- [yeoman-generator](https://github.com/yeoman/generator)  脚手架工具
 
 ### webpack 辅助工具、Loader 和插件
 
@@ -56,7 +66,7 @@
 
 ## 工具库
 
-- [**whistle**](https://github.com/avwo/whistle) - HTTP, HTTP2, HTTPS, Websocket debugging proxy https://wproxy.org/whistle/
+- [**whistle**](https://github.com/avwo/whistle) - HTTP, HTTP2, HTTPS, Websocket debugging proxy [官方文档](https://wproxy.org/whistle/)
 - [zan-proxy](https://github.com/youzan/zan-proxy/blob/master/README.zh-CN.md)  本地调试线上环境的工具
 - [live-server](https://github.com/tapio/live-server)  可以快速启一个本地 dev 服务 并且支持自动刷新的 http server
 - [serve](https://github.com/zeit/serve)  快速起本地静态服务

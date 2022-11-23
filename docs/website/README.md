@@ -137,6 +137,7 @@
 
 ## 有趣
 
+- [**Server 酱**](https://sct.ftqq.com/)
 - [**Temporary Email Address**](https://temp-mail.org) - 临时邮件使用
 - [**Temp**](https://temp.pm/) - 短信息（可加密）
 - **无损音乐** [无损音乐吧](http://www.wsyyb.com/) [超高无损音乐](https://www.sq688.com/)
