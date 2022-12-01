@@ -63,6 +63,7 @@
 - [**ruanyf/document-style-guide**](https://github.com/ruanyf/document-style-guide) - 中文技术文档的写作规范，by [ruanyf](https://github.com/ruanyf)
 - [**ruanyf/articles**](https://github.com/ruanyf/articles) - personal articles，by [ruanyf](https://github.com/ruanyf)
 - [**How-To-Ask-Questions-The-Smart-Way**](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) - 提问的智慧
+- [**awesome-resume**](https://github.com/resumejob/awesome-resume) - 程序员简历例句，简历模版
 - [**github-markdown-css**](https://github.com/sindresorhus/github-markdown-css) - The minimal amount of CSS to replicate the GitHub Markdown style
 
 ## 设计
@@ -142,6 +143,10 @@
 - [**Temp**](https://temp.pm/) - 短信息（可加密）
 - **无损音乐** [无损音乐吧](http://www.wsyyb.com/) [超高无损音乐](https://www.sq688.com/)
 - [**lsjgcx**](http://www.lsjgcx.com/) - 历史价格查询
+
+**程序员的一天**
+
+- [法国 @cocoysatis4264](https://www.youtube.com/@cocoysatis4264/videos)
 
 ## 类似
 
