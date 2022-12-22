@@ -6,7 +6,8 @@
 
 - [vue](https://github.com/vuejs/vue) - 中文 [vue2](https://v2.cn.vuejs.org/) / [vue3](https://cn.vuejs.org/)
 - [nuxt.js](https://github.com/nuxt/nuxt.js) [英文](https://nuxtjs.org/) / [中文 1](https://www.nuxtjs.cn/) / [中文 2](https://www.w3cschool.cn/nuxtjs/)
-- [quasar](https://github.com/quasarframework/quasar) - 基于 vue，一套代码多处适用。[中文文档](http://www.quasarchs.com/)
+- [nuxt3](https://github.com/nuxt/framework)  [英文](https://nuxt.com/) / [中文](https://www.nuxtjs.org.cn/) 
+- [quasar](https://github.com/quasarframework/quasar) - 基于 vue，一套代码多处适用。[中文文档](http://www.quasarchs.com/)
 - [vue-router](https://github.com/vuejs/vue-router)
 - [vuex](https://github.com/vuejs/vuex)
 - [vueuse](https://github.com/vueuse/vueuse) [文档](https://vueuse.org/)
