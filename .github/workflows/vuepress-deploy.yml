@@ -1,16 +1,41 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: 
+     - master
 jobs:
-  build-and-deploy:
+   build-and-deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['lts/fermium']
     steps:
-#     - name: Checkout
-#       uses: actions/checkout@master
-
-    - name: vuepress-deploy
-      uses: yanyue404/my-bookmarks@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_BRANCH: gh-pages
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist
+      - name: Checkout
+        uses: actions/checkout@main
+        with:
+          ref: 'master'
+          persist-credentials: false
+          fetch-depth: 0
+        env:
+          TZ: Asia/Shanghai
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@main
+        with:
+          node-version:  ${{ matrix.node }}
+      - name: npm Install 
+        run: npm install
+      - name: Build VitePress
+        run: pnpm run build
+      - name: Deploy to Pages
+        env:
+         TZ: Asia/Shanghai
+        run: |
+          cd docs/.vitepress/dist
+          git init
+          git config user.name "yanyue404"
+          git config user.email "1656800216@qq.com"
+          git add .
+          git commit -m 'Deploying to gh-pages from Github actions'
+         
+          git push -f https://yanyue404:${{secrets.ACCESS_TOKEN }}@github.com/yanyue404/my-bookmarks.git master:gh-pages
+          cd -
