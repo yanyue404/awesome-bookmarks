@@ -24,13 +24,13 @@ jobs:
           node-version:  ${{ matrix.node }}
       - name: npm Install 
         run: npm install
-      - name: Build VitePress
+      - name: Build VuePress
         run: npm run build
       - name: Deploy to Pages
         env:
          TZ: Asia/Shanghai
         run: |
-          cd docs/.vitepress/dist
+          cd docs/.vuepress/dist
           git init
           git config user.name "yanyue404"
           git config user.email "1656800216@qq.com"
