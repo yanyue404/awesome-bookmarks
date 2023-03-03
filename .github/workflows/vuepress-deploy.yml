@@ -25,7 +25,7 @@ jobs:
       - name: npm Install 
         run: npm install
       - name: Build VitePress
-        run: pnpm run build
+        run: npm run build
       - name: Deploy to Pages
         env:
          TZ: Asia/Shanghai
