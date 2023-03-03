@@ -37,5 +37,5 @@ jobs:
           git add .
           git commit -m 'Deploying to gh-pages from Github actions'
          
-          git push -f https://yanyue404:${{secrets.ACCESS_TOKEN }}@github.com/yanyue404/my-bookmarks.git master:gh-pages
+          git push -f https://ACCESS_TOKEN:${{secrets.ACCESS_TOKEN }}@github.com/yanyue404/my-bookmarks.git master:gh-pages
           cd -
