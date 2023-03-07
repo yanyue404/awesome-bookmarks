@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/yanyue404/my-bookmarks#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }
