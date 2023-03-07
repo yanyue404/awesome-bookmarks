@@ -36,28 +36,6 @@
 - [**RMind**](https://github.com/Mongkii/RMind) - 基于 React Hooks 与 flex 布局 的思维导图 https://mongkii.github.io/RMind/
 - [**visualgo**](https://visualgo.net/zh/) - 数据结构，算法可视化
 
-## 教程
-
-- [**npx**](https://egghead.io/courses/execute-npm-package-binaries-with-the-npx-package-runner) 教你怎么合理的使用 npx
-- [**mobile-web-best-practice**](https://github.com/mcuking/mobile-web-best-practice) 移动 web 最佳实践
-- [**vanillawebprojects**](https://github.com/bradtraversy/vanillawebprojects) 通过纯前端的手段实现一些小项目，适合入门
-- [**Think Python**](https://codingpy.com/books/thinkpython2/index.html) 还不错的 Python 入门教程
-- [**Node.js CLI Apps Best Practices**](https://github.com/lirantal/nodejs-cli-apps-best-practices) 叫你如何写好一个 node cli 工具
-- [**SQL Murder Mystery**](https://mystery.knightlab.com/walkthrough.html) 一个英文的 SQL 初级教程，以游戏的方式，让你利用学到的 SQL 概念和命令来找出谋杀凶手
-- [**html-dom**](https://github.com/phuoc-ng/html-dom) 一些常用的 dom 或者原生 js 操作判断，挺实用的
-- [**TypeScript**](https://ts.xcatliu.com/) TypeScript 入门教程，很不错，推荐初学者学习
-- [**Webpack 知识图谱**](https://tsejx.github.io/webpack-guidebook/) webpack 相关教程和原理分析还不错
-- [**git-tips**](https://github.com/521xueweihan/git-tips) - Git 的奇技淫巧
-- [**project-guidelines**](https://github.com/elsewhencode/project-guidelines/blob/master/README-zh.md) - JavaScript 工程项目规范
-- [**nodebestpractices**](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - 最大的 Node.js 最佳实践列表
-- [**fe-camp**](https://github.com/webzhao/fe-camp) - 75team front-end camp
-- [**javascript-testing-best-practices**](https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-zh-CN.md) - 全面而详尽的 JavaScript 和 Node.js 测试最佳实践
-- [**jstraining**](https://github.com/ruanyf/jstraining) 全栈工程师培训材料
-- [**horseshoe**](https://github.com/veedrin/horseshoe) "马蹄铁"专题学习计划
-- [**hacksplaining-lessons**](https://www.hacksplaining.com/lessons) - 通过课程实例了解安全漏洞
-- [**vue-advanced-workshop**](https://github.com/zhengguorong/vue-advanced-workshop) - 尤雨溪亲自讲解 vue 高级特性
-- [**后盾人**](https://doc.houdunren.com/)
-
 ### markdown
 
 - [**clipboard2markdown**](https://euangoddard.github.io/clipboard2markdown/) - 将你所有复制进去的内容都转化为 markdown
@@ -97,7 +75,7 @@
 - [excalidraw](https://excalidraw.com/) 手绘风格流程图，强推
 - [**processon**](https://www.processon.com/) 免费在线作图，支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等
 
-**色彩方案**
+### 色彩方案
 
 - [Brand Colors](https://brandcolors.net/) - 各大热门社交网站的配色方案
 - [Material Palette](https://www.materialpalette.com/) - 提供 Material Design 配色的线上工具（从自选两种颜色开始）
@@ -105,7 +83,7 @@
 - [0 to 255](https://www.0to255.com/) - 一个作为出发点的颜色（起始颜色），有序呈现色彩变化的颜色列表
 - [Adobe Color CC](https://color.adobe.com/zh/create/color-wheel) - 快速创建 5 色的新色彩主题
 
-**图库站点**
+### 图库站点
 
 > 下面都是图库网站，提供免费的商业级高清晰度图片下载。
 
@@ -122,7 +100,7 @@
 - [ISO Republic](https://isorepublic.com/)
 - [泼辣有图](https://www.polaxiong.com/)
 
-**开放 API**
+### 开放 API
 
 - [**jsonplaceholder**](https://github.com/typicode/jsonplaceholder) A simple online fake REST API server https://jsonplaceholder.typicode.com
 - [**GitHub API v3**](https://developer.github.com/v3/)
@@ -137,7 +115,6 @@
 
 - [**产品大牛**](http://www.pmdaniu.com/) 什么有很多完整的产品原型可以借鉴
 
-
 ## 有趣
 
 - [**Server 酱**](https://sct.ftqq.com/)
@@ -151,10 +128,10 @@
 
 - [法国 @cocoysatis4264](https://www.youtube.com/@cocoysatis4264/videos)
 
-## 类似
+## 参考链接
 
 - [awesome-f2e-libs](https://github.com/sorrycc/awesome-f2e-libs) - 🎉 整理我平时关注的前端库 by [sorrycc](https://github.com/sorrycc)
 - [my-development-tools](https://github.com/adoyle-h/my-development-tools) - [我的开发工具箱](https://adoyle.me/my-development-tools/)
-- [awesome-bookmarks](https://github.com/PanJiaChen/awesome-bookmarks) - 💖 A curated list of awesome things
+- [awesome-bookmarks](https://github.com/PanJiaChen/awesome-bookmarks) - [💖 A curated list of awesome things](https://panjiachen.github.io/awesome-bookmarks/)
 - [awesome-windows](https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md)
 - [reading-list](https://github.com/ruanyf/reading-list) - Some books I read，by [ruanyf](https://github.com/ruanyf)
