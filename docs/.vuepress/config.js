@@ -19,11 +19,11 @@ module.exports = {
         link: "/repository/"
       },
       {
-        text: "博客文章",
+        text: "我的博客文章",
         link: "/articles/"
       },
       {
-        text: "专题学习",
+        text: "专题学习计划",
         link: "/topic/"
       }
     ],
