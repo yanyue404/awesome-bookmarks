@@ -1,4 +1,5 @@
 const utils = require("./utils");
+const { looseEqual } = require("rainbow-shared");
 module.exports = {
   title: "my-bookmarks",
   base: "/my-bookmarks/",
@@ -20,11 +21,7 @@ module.exports = {
       },
       {
         text: "我的博客文章",
-        link: "/articles/"
-      },
-      {
-        text: "专题学习计划",
-        link: "/topic/"
+        link: "https://yanyue404.github.io/blog/"
       }
     ],
     sidebar: utils.inferSiderbars(),
