@@ -3,6 +3,7 @@ module.exports = {
   title: "my-bookmarks",
   base: "/my-bookmarks/",
   description: "我喜欢的收集",
+  plugins: ["fulltext-search"],
   themeConfig: {
     nav: [
       {
@@ -10,28 +11,20 @@ module.exports = {
         link: "/"
       },
       {
-        text: "网站",
+        text: "在线网站",
         link: "/website/"
       },
       {
-        text: "库",
+        text: "前端库",
         link: "/repository/"
       },
       {
-        text: "文章",
-        link: "/article/"
+        text: "我的博客文章",
+        link: "/articles/"
       },
       {
-        text: "个人博客",
-        link: "https://yanyue404.github.io/blog/#/"
-      },
-      {
-        text: "前端知识体系",
-        link: "https://yanyue404.github.io/fe-attitude"
-      },
-      {
-        text: "王明道文集精选",
-        link: "https://yanyue404.github.io/mingdao/"
+        text: "专题学习计划",
+        link: "/topic/"
       }
     ],
     sidebar: utils.inferSiderbars(),
@@ -40,7 +33,7 @@ module.exports = {
     editLinks: true,
     docsDir: "docs",
     editLinkText: "在 GitHub 上编辑此页",
-    repo: "yanyue404/my-bookmarks",
-    lastUpdated: "上次更新"
+    lastUpdated: "上次更新",
+    searchMaxSuggestions: 10
   }
 };
